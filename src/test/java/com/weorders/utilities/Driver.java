@@ -5,6 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.io.FileInputStream;
+import java.util.Properties;
+
 public class Driver {
 
     private static WebDriver driver; // reference variable, pointer on object
